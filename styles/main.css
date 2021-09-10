@@ -1,5 +1,45 @@
+:root {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+    color: #181818;
+    opacity: 0.9;
+}
+
+a {
+    text-decoration: none;
+    color: #2222ff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #7700ff;
+}
+
+.nav {
+    list-style: none;
+    display: grid;
+    grid-template-columns:
+}
+
 img {
-    height: 750px;
-    width: 750px;
+    height: auto;
+    width: 100%;
     margin-top: 10px;
+    max-width: 700px;
+    border-radius: 5px;
+}
+
+.top.headers {
+    text-align: center;
+}
+
+.headers {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
 }
