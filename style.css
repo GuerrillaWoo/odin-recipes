@@ -1,4 +1,17 @@
 body {
-    font-family: Garamond, sans-serif;
+    font-family: 'Courier New', Courier, monospace; 
     background-color: #c5c5c5;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+a {
+    color: #2a168b;
+}
+
+.recipe-cards {
+    display: flex;
+
 }
