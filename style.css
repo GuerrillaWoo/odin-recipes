@@ -12,6 +12,7 @@ a {
 }
 
 .recipe-cards {
-    display: flex;
+    /* border: 3px solid red; */
+    /* display: inline-block; */
 
 }
