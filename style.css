@@ -21,22 +21,18 @@ a:visited {
     color: #4f168b;
 }
 
-.recipes {
+.article-images {
+    display: block;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.recipes-container {
     background-color: #d5d5d5;
-    max-width: 700px;
     margin: 0 auto;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
-}
-
-.recipes img {
-    box-sizing: border-box;
-    border: 10px solid #c5c5c5;
-    padding: 10px;
-    width: 300px;
-    height: 300px;
-    display: block;
 }
 
 .recipe-cards {
@@ -45,3 +41,14 @@ a:visited {
     flex-direction: column;
     justify-content: center;
 }
+
+.recipe-cards img {
+    box-sizing: border-box;
+    /* border: 10px solid #c5c5c5; */
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+
+
