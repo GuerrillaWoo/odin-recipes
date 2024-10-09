@@ -56,4 +56,9 @@ a:visited {
     text-align: center;
 }
 
+@media (max-width: 750px) {
+    .recipes-container {
+        flex-direction: column;
+    }
+}
 
